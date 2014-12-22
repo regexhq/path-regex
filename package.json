@@ -1,0 +1,32 @@
+{
+  "name": "path-regex",
+  "description": "Regular expression for parsing file paths.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/path-regex",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/path-regex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/path-regex/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/path-regex/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": []
+}
