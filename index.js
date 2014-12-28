@@ -18,17 +18,6 @@
  *   5 => ext (without .)
  */
 
-var re = module.exports = function () {
-  // return /^([\s\S]*?)(([^\\\/]+?)(?:(?:(\.(?:\.{1,2}|([^.\\\/]*))|)(?:[\\\/]*))$))|$/;
-  return /^(([\s\S]*)([^\\\/]+?[\\\/]+?))*(([\s\S]*?)(\.(?:\.{1,2}|([^.\\\/]*|)|)|)|)$/;
+module.exports = function pathRegex() {
+  return /([\s\S]*?)(([^\\\/.]*?)(\.([^.\\\/]*)$|$))/;
 };
-
-
-// console.log(re().exec('a/b/c.md'));
-console.log(re().exec('/a/b/c/d/e.md'));
-console.log(re().exec('a/b/c'));
-console.log(re().exec('a/b/c/'));
-// console.log(re().exec('/a/b/c'));
-// console.log(re().exec('/a/b/c/'));
-console.log(re().exec('a'));
-console.log(re().exec('a.md'));
