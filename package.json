@@ -1,6 +1,6 @@
 {
   "name": "path-regex",
-  "description": "Regular expression for parsing file paths.",
+  "description": "Regular expression for matching/parsing file paths.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/path-regex",
   "author": {
@@ -28,5 +28,17 @@
   "devDependencies": {
     "mocha": "*"
   },
-  "keywords": []
+  "keywords": [
+    "expression",
+    "file",
+    "filepath",
+    "fs",
+    "match",
+    "matching",
+    "path",
+    "regex",
+    "regexp",
+    "regular",
+    "test"
+  ]
 }

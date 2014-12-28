@@ -1,6 +1,6 @@
 # path-regex [![NPM version](https://badge.fury.io/js/path-regex.svg)](http://badge.fury.io/js/path-regex)
 
-> Regular expression for parsing file paths.
+> Regular expression for matching/parsing file paths.
 
 ## Install with [npm](npmjs.org)
 
