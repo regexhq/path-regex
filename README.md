@@ -44,7 +44,7 @@ node i -d && mocha
 ```
 
 ## Contributing
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/path-regex/issues)
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/regexps/path-regex/issues)
 
 ## Author
 
