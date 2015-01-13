@@ -1,6 +1,6 @@
 {
   "name": "path-regex",
-  "description": "Regular expression for matching/parsing file paths.",
+  "description": "Regular expression for matching the parts of a file path.",
   "version": "1.0.0",
   "homepage": "https://github.com/regexps/path-regex",
   "author": {
